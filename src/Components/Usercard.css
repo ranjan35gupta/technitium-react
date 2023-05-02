@@ -1,0 +1,11 @@
+.container{
+    border:2px solid brown;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(grey,pink);
+}
+img{
+width: 300px;
+height: 300px;
+}
