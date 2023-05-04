@@ -34,10 +34,7 @@ export function OtpGenerator() {
         console.log(mobileNumber)
 
     }
-
-
-
-    return (
+return (
         <div>
             <input onChange={handleChange} placeholder="Mobile Number" />
             <button onClick={handleClick}>Get OTP</button>
