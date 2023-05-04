@@ -1,0 +1,28 @@
+.imageChanger{display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    
+    
+    }
+    img{
+        margin-top: 30px;
+        width: 500px;
+        height: 325px;
+        border-radius: 8px;
+    
+    
+    }
+    button{
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 150px;
+    }
+    button:hover{
+        background-color: blanchedalmond;
+    
+    
+    }
