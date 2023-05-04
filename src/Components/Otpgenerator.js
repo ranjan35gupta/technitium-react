@@ -22,7 +22,7 @@ export function OtpGenerator() {
             data: {
                 mobile: mobileNumber
             }
-        })-
+        })
             .then(response => response )
             .catch(error => error)
 
