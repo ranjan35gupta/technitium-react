@@ -1,0 +1,177 @@
+.container1{
+
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    /* border: 2px solid brown; */
+    /* position: fixed; */
+    width: 26.5rem;
+    /* border: 2px solid brown; */
+    
+
+}
+.headers{
+    display: none;
+    
+}
+.header{display: flex;
+    background-color: blue;
+    /* border:2px solid black; */
+    height: 35.4rem;
+    width: 9.5rem;
+    /* align-content: space-around; */
+    /* justify-content: space-around; */
+flex-direction: column;
+margin-left: 15rem;
+margin-top:5rem;
+gap: 1rem;
+font-weight: bold;
+color:white;
+border: hidden;
+padding-left: 2rem;
+z-index: 2;
+
+}
+.header li{
+    list-style: none;
+}
+.stumble{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;}
+ .bslist{
+    /* width: fit-content; */
+    /* padding-left:58rem ; */
+    /* border: 2px solid brown; */
+    width: 2rem;
+    height: 4rem;
+    margin-left: 17rem;
+    position: fixed;
+    cursor: pointer;
+    
+    
+    
+    /* padding-left: 15rem; */
+    
+} 
+
+.hero{
+    display: flex;
+    width: fit-content;
+    /* height: 50rem; */
+    flex-direction: column;
+    flex-direction: column-reverse;
+    /* border: 2px solid; */
+
+    
+}
+.para{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 20rem;
+    
+    
+    
+}
+.heading1{
+    color: white;
+    /* font-size: 4rem; */
+    /* border: 2px solid white; */
+    margin-bottom:0rem
+}
+.para2{
+    color:gray;
+    /* border:2px solid white; */
+    
+}
+.image{
+    /* border: 2px solid; */
+    width: 24rem;
+    height: 15rem;
+    
+    
+}
+
+
+@media screen and (min-width:600px) {
+    .container1{
+    /* background-color: blue; */
+    /* display: flex; */
+    /* flex-direction: row;
+    height: 5rem;
+    border: 2px solid brown; */
+    width: 94.5rem;
+    
+    
+
+    
+
+}
+.headers{
+    display: flex;
+    width: 100rem;
+    justify-content: end;
+    /* border: 2px solid yellow; */
+    gap:2rem;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+    
+    
+}
+.headers li{
+    list-style: none;
+    color: white;
+    /* border:3px solid ; */
+
+}
+
+.stumble{
+    position: static;
+    width: 5rem;
+    height: 5rem;
+}
+.bslist{
+    display: none;
+}
+.hero{
+    display: flex;
+    width: fit-content;
+    height: 50rem;
+    flex-direction: row;
+    
+}
+.para{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    height: 50rem;
+    
+    
+    
+}
+.heading1{
+    color: white;
+    font-size: 4rem;
+    /* border: 2px solid white; */
+    /* margin-bottom:0rem */
+}
+.para2{
+    color:gray;
+    /* border:2px solid white; */
+    
+}
+.image{
+    width: 49.5rem;
+    height: 50rem;
+}
+}
