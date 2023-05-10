@@ -1,0 +1,27 @@
+.card{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    border: hidden;
+    margin-top:30vh;
+
+    gap:8px;
+    overflow: scroll;
+    width: 100vw;
+    height: 40vh;
+    background: rgba(233, 237, 239, 0.765);
+
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+    
+}
+.inneritem{
+    display: flex;
+    width: 30vw;
+    height: 36vh;
+    margin-top: 1rem;
+    background-color: rgba(226, 221, 247, 0.288);
+    
+}
