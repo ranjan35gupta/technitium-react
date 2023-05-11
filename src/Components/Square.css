@@ -1,0 +1,13 @@
+.square{
+    border: 1px solid black;
+    height: 15vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+}
