@@ -1,0 +1,61 @@
+
+
+.container{
+    display: flex;
+    margin-top: 10em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid brown;
+    width: 40vw;
+    padding-bottom: 4vh;
+    height: max-content;
+    background-color:black ;
+    border-radius: 15px;
+
+}
+
+.listing{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    list-style: none;
+    
+}
+.l2{
+    border: 2px solid white;
+    /* text-decoration: line-through; */
+    margin-bottom: 1.3rem;
+    width: 15vw;
+    text-align: center;
+    
+}
+
+
+.btn1{
+    width: 4 em;
+    height: 1.8em;
+    margin-left: 0.5em;
+    background-color: red;
+    cursor:pointer;
+}
+.btn{
+    width: 6em;
+    height: 1.8em;
+    margin-left: 1em;
+    background-color: blue;
+    cursor:pointer;
+}
+.inputs{
+    margin-top: 10em;
+    text-align: center;
+    width: 18em;
+    height: 2em;
+    border: hidden;
+}
+.p2{
+    text-decoration: line-through;
+    
+}
