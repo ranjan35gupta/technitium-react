@@ -4,11 +4,13 @@ import  styles from './Section.module.css'
 import {FcStumbleupon} from 'react-icons/fc'
 import {BsList} from 'react-icons/bs'
 import { useState,useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 // import New from './Vari'
 
 export default function Section(){
     const [values,setValues]=useState("Section_headers__w91NE")
     let curRef = useRef("headers")
+    const navigate = useNavigate()
     const login = "Login"
     const see_how ="See How"
     
@@ -16,21 +18,19 @@ export default function Section(){
         values==='Section_headers__w91NE'?setValues("Section_header__gYk9X"):setValues("Section_headers__w91NE")
 
     }
-    console.log(values)
+    function handleRedirect(element){
+        navigate=`${element}`
+
+    }
     
-    //Section_header__gYk9X
-    
-    
-    
-    console.log()
     return(
            <div>
             <div className={styles.container1}>
              <FcStumbleupon className={styles.stumble}/>
             
             <header className={values} >
-                {ar.map(element=><li>{element}</li>)}
-                <Button login={login}/>
+                {ar.map(element=><li onClick={()=>handleRedirect(element)}><a href={`${element}`}>{element}</a></li>)}
+                <Button  login={login}/>
 
             </header>
             

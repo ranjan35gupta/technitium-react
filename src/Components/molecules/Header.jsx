@@ -3,4 +3,4 @@
 
 //     )
 // }
- export const ar =["Home","About","Projects","Videos","Contact"]
+ export const ar =["Home","About","Projects","Register","Contact"]
