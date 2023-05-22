@@ -1,0 +1,34 @@
+.searchbar-container{
+    display: flex;
+    border:2px solid black;
+    width: 30vw;
+    justify-content: center;
+    height: 3vh;
+    margin-top: 10rem;
+    background-color: azure;
+}
+.searchbar-container input{
+    width: 40rem;
+    /* border: hidden; */
+    height: 80%;
+    border: hidden;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    
+
+}
+
+
+.filteredValue{
+    display: flex;
+    flex-direction: column;
+
+    /* border: 2px solid black; */
+    
+
+}
+
+.searchIcon{
+    border: none;
+}
