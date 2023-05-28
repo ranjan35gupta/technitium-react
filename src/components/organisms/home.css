@@ -1,0 +1,23 @@
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.movies{
+    height: 70vh;
+}
+.movies img{
+    height: 60vh;
+    width: 40vw;
+}
+button{
+    background-color: rgba(118, 80, 153, 0.909);
+    border-radius: 5px;
+    width: 10rem;
+    height: 1.6rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(156, 84, 84);
+}

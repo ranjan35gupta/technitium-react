@@ -1,0 +1,16 @@
+.movies-container{
+    display: flex;
+    
+}
+.movies{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.movies img{
+    width: 30vw;
+    height: 40vh;
+}
